@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 PRODUCT_CHOISES = {
     ('TV', 'tv'),
     ('IPAD', 'ipad'),
-    ('PLAYSTATION', 'playstation')
+    ('PLAYSTATION', 'playstation'),
 }
 
 class Sale(models.Model):
